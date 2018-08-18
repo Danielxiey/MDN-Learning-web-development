@@ -1,0 +1,130 @@
+/* General setup */
+@font-face {
+    font-family: 'antic_sansregular';
+    src: url('fonts/anticsans-regular-webfont.eot');
+    src: url('fonts/anticsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/anticsans-regular-webfont.woff2') format('woff2'),
+         url('fonts/anticsans-regular-webfont.woff') format('woff'),
+         url('fonts/anticsans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'andadaregular';
+    src: url('fonts/andada-regular-webfont.eot');
+    src: url('fonts/andada-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/andada-regular-webfont.woff2') format('woff2'),
+         url('fonts/andada-regular-webfont.woff') format('woff'),
+         url('fonts/andada-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  body {
+    font-family: 'andadaregular', serif;
+  }
+  header {
+    font-family: 'antic_sansregular', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 0.2em;
+  }
+  html {
+    font-size: 10px;
+  }
+  body {
+      font-size: 1.5em;
+      line-height: 2;
+      letter-spacing: 0.1em;
+      word-spacing: 0.1em;
+  }
+  h2 {
+      letter-spacing: 0.2em;
+  }
+  section h2 + p {
+      text-indent: 20px;
+  }
+  a:link {
+      color: #a66;
+  }
+  a:visited {
+    color: #a66;
+  }
+  a:focus {
+    color: #a66;
+    text-decoration: none;
+    outline: none;
+  }
+  a:hover {
+    color: #a66;
+    text-decoration: none;
+  }
+  a:active {
+    color: red;
+  }
+  a[href*="http"] {
+      background: url(external-link-52.png) top right no-repeat;
+      background-size: 15px 15px;
+      padding-right: 15px;
+  }
+  ul li {
+      line-height: 2;
+  }
+  nav ul {
+      list-style: none;
+  }
+  nav ul li a {
+      display: block;
+      width: 200px;
+      height: 60px;
+      border: 1px solid #a66;
+      margin-bottom: 30px;
+      text-decoration: none;
+      font-size: 1.5em;
+      line-height: 60px;
+      text-align: center;
+  }
